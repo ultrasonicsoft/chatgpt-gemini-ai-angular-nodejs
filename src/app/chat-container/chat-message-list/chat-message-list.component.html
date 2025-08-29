@@ -1,7 +1,11 @@
-@for (message of messages(); track message.id) {
+@if (messages().length === 0) {
+  <app-welcome-screen (questionSelected)="onQuestionSelected($event)"></app-welcome-screen>
+} @else {
+  @for (message of messages(); track message.id) {
     @if (message.role === 'user') {
-        <app-user-message [message]="message"></app-user-message>
+      <app-user-message [message]="message"></app-user-message>
     } @else {
-        <app-assistant-message [message]="message"></app-assistant-message>
+      <app-assistant-message [message]="message"></app-assistant-message>
     }
+  }
 }

@@ -1,0 +1,30 @@
+<div class="welcome-container">
+  <div class="welcome-header">
+    <div class="logo-section">
+      <mat-icon class="chat-icon">chat</mat-icon>
+      <h1>Welcome to AI Chat</h1>
+    </div>
+    <p class="welcome-subtitle">How can I help you today?</p>
+  </div>
+
+  <div class="questions-grid">
+    @for (question of predefinedQuestions; track question.title) {
+      <button 
+        mat-raised-button 
+        class="question-card"
+        (click)="onQuestionClick(question)">
+        <div class="question-content">
+          <mat-icon class="question-icon">{{ question.icon }}</mat-icon>
+          <div class="question-text">
+            <h3>{{ question.title }}</h3>
+            <p>{{ question.description }}</p>
+          </div>
+        </div>
+      </button>
+    }
+  </div>
+
+  <div class="welcome-footer">
+    <p class="footer-text">Or type your own question below</p>
+  </div>
+</div>
