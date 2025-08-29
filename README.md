@@ -59,6 +59,24 @@ The frontend will run on `http://localhost:4200`
 ### 5. Open Your Browser
 Navigate to `http://localhost:4200` and start chatting with Gemini AI!
 
+## 📺 Video Tutorial
+
+**Want to see this project in action?** Check out my comprehensive video tutorial where I walk through building this entire ChatGPT-Gemini AI application from scratch!
+
+[![Watch the Tutorial](https://img.shields.io/badge/▶️_Watch_on_YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/MYVvB_hAeFk)
+
+**[🎥 Building ChatGPT Clone with Angular 19 & Gemini AI](https://youtu.be/MYVvB_hAeFk)**
+
+In this tutorial, you'll learn:
+- 🚀 How to set up Angular 19 with the latest features
+- 🤖 Integrating Google Gemini AI API
+- 💬 Building a modern chat interface
+- 🎨 Creating ChatGPT-like UI components
+- 🔧 Setting up Node.js backend server
+- 🔐 Secure API key management
+
+👍 **If this project helped you, please give the video a thumbs up and subscribe to my channel for more Angular and AI tutorials!**
+
 ## 📁 Project Structure
 
 ```
@@ -140,6 +158,22 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 🔗 Links
 
+- [🎥 YouTube Tutorial - Building this Project](https://youtu.be/MYVvB_hAeFk)
 - [Angular Documentation](https://angular.dev)
 - [Google Gemini AI](https://ai.google.dev)
 - [Node.js Documentation](https://nodejs.org)
+
+## 👨‍💻 About the Creator
+
+This project was created as part of my YouTube tutorial series on modern web development. If you found this helpful:
+
+- 📺 **[Subscribe to my YouTube channel](https://youtu.be/MYVvB_hAeFk)** for more Angular, AI, and web development tutorials
+- 👍 **Like the video** if this project helped you learn something new
+- 💬 **Leave a comment** on the video with your questions or suggestions
+- 🔔 **Turn on notifications** to stay updated with new tutorials
+
+**More tutorials coming soon:**
+- Advanced Angular 19 features
+- AI integration patterns
+- Modern UI/UX development
+- Full-stack development with Node.js
