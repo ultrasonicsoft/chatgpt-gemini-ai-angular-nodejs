@@ -1,0 +1,7 @@
+@for (message of messages(); track message.id) {
+    @if (message.role === 'user') {
+        <app-user-message [message]="message"></app-user-message>
+    } @else {
+        <app-assistant-message [message]="message"></app-assistant-message>
+    }
+}

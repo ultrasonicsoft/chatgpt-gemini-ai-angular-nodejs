@@ -1,0 +1,20 @@
+<div class="chat-input-container">
+  <div class="input-wrapper">
+    <div 
+      contenteditable="true" 
+      class="chat-input-editable-area" 
+      placeholder="Message ChatGPT..." 
+      (input)="onInput($event)"
+      (keydown)="onKeyDown($event)"
+      #inputElement>
+    </div>
+    <button 
+      mat-icon-button 
+      class="send-button"
+      [disabled]="!canSend()"
+      (click)="sendMessage()"
+      [class.enabled]="canSend()">
+      <mat-icon>send</mat-icon>
+    </button>
+  </div>
+</div>
